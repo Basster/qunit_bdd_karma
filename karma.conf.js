@@ -14,7 +14,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        {pattern: 'test/lib/qunit-1.12.0.js', watched:true, served: true, included: false},
+        {pattern: 'test/lib/qunit-1.12.0/qunit-1.12.0.js', watched:true, served: true, included: false},
         //'js/*.js',
         'test/*spec.js'
     ],
